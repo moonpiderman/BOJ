@@ -1,6 +1,6 @@
 
 def solution(node, branch, point) :
-    answer = 0
+    answer = 1
     n = node
     b = branch
     p = point
