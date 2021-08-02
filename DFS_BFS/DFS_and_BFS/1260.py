@@ -32,6 +32,7 @@ visit_list2 = [0] * (n + 1)
 
 for _ in range(m):
     a, b = map(int, read().split())
+    # 양방향 간선에 1
     graph[a][b] = graph[b][a] = 1
 
 DFS(v)
